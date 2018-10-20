@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nodes>
+    <DialogueNode>
+      <NodeID>0</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>1</DestinationNodeID>
+          <Text>What am I here for?</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>2</DestinationNodeID>
+          <Text>Hello</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Hello!</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>1</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>4</DestinationNodeID>
+          <Text>I'm sorry. Can we go back to the start of this converstaion?</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Exit</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Well that's not very nice to start things you thinks? 
+and I don't think I like you</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>2</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>0</DestinationNodeID>
+          <Text>Can we go back to the start of this converstaion?</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>3</DestinationNodeID>
+          <Text>Call me [player-name], thanks.</Text>
+        </DialogueOption>
+      </Options>
+      <Text>My name is [npc-name] what is yours?</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>3</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>9</DestinationNodeID>
+          <Text>I never got your name...</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>4</DestinationNodeID>
+          <Text>No, why must we part? We've only just met!</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Exit</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Nice to meet you player name... bye... I guess</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>4</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>6</DestinationNodeID>
+          <Text>I am ready to talk about why we are here!</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>5</DestinationNodeID>
+          <Text>I really am sorry...</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>6</DestinationNodeID>
+          <Text>I never meant to make you cry, but tonight... Mom's Spaghetti!</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Exit</Text>
+        </DialogueOption>
+      </Options>
+      <Text>I don't know. What's it mean to you anyhow?</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>5</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>7</DestinationNodeID>
+          <Text>Yea I promise</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>7</DestinationNodeID>
+          <Text>No, I ain't gonna do it for sure</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>0</DestinationNodeID>
+          <Text>There has to be something better for you to do with your time surely?</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>8</DestinationNodeID>
+          <Text>I never caught your name...</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Aww shucks its okay I guess. Promiss not to do it again?</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>6</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>10</DestinationNodeID>
+          <Text>...</Text>
+        </DialogueOption>
+      </Options>
+      <Text>I'm with you, let's get down to business... one day.</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>7</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>10</DestinationNodeID>
+          <Text>...</Text>
+        </DialogueOption>
+      </Options>
+      <Text>This just takes too much time, honestly...</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>8</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>10</DestinationNodeID>
+          <Text>...</Text>
+        </DialogueOption>
+      </Options>
+      <Text>I AM THAT THAT IS FOR THE PURPOSE OF BEING THAT</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>9</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Ok...</Text>
+        </DialogueOption>
+      </Options>
+      <Text>AND YOU NEVER WILL! YOU SON OF A GUN!</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>10</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>11</DestinationNodeID>
+          <Text>Do my choices even mater?</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Are there questions I you want to ask</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>Ok.. Yeah I am done with this</Text>
+        </DialogueOption>
+      </Options>
+      <Text>What would you like to talk about then?</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>11</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>13</DestinationNodeID>
+          <Text>That's not what I meant... But. Ok. Tell me something about you.</Text>
+        </DialogueOption>
+        <DialogueOption>
+          <DestinationNodeID>12</DestinationNodeID>
+          <Text>That's some abstract way of thinking.</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Of course your choices matter. All energy is expressible in terms of matter.</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>12</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>EXIT</Text>
+        </DialogueOption>
+      </Options>
+      <Text>Well... I am a machine. What do you think you are?</Text>
+    </DialogueNode>
+    <DialogueNode>
+      <NodeID>13</NodeID>
+      <Options>
+        <DialogueOption>
+          <DestinationNodeID>-1</DestinationNodeID>
+          <Text>EXIT</Text>
+        </DialogueOption>
+      </Options>
+      <Text>No. I have nothing to say about my self. I am just another character in your dream. You can wake up whenever you please</Text>
+    </DialogueNode>
+  </Nodes>
+</Dialogue>
