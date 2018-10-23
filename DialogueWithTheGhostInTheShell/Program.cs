@@ -10,13 +10,15 @@ namespace DialogueWithTheGhostInTheShell
             //Dialogue fun
             DialogueBuilder.InitializeTestDialogueXML();
             Dialogue d = DialogueBuilder.ReadDialogueXML("test_dia.xml");
+
+            Messenger.CreateTheGhost(); // Create SpeechSynthesizer
+            Messenger.InformUserOfExit();
+
             RunDialogue(d);
         }
 
         static void RunDialogue(Dialogue d)
         {
-            Messenger.CreateTheGhost(); // Create SpeechSynthesizer
-            Messenger.InformUserOfExit();
             int node_id = 0; 
             while (node_id != -1) // -1 is exit node
                 node_id = RunNode(d.Nodes[node_id]);
